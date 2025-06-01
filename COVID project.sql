@@ -84,11 +84,9 @@ LIMIT 10;
 
 
 -- Global Death by COVID 
-SELECT date, sum(new_cases), sum(new_deaths), sum(new_cases)/sum(new_deaths)*100 AS global_deaths
+SELECT sum(new_cases) AS global_cases, sum(new_deaths) AS global_deaths, (sum(new_deaths)/sum(new_cases))*100 AS global_death_percentage
 FROM coviddeaths 
-WHERE continent IS NOT NULL 
-GROUP BY date
-ORDER BY date, sum(new_cases);
+WHERE continent IS NOT NULL;
 
 
 
