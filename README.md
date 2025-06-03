@@ -4,7 +4,7 @@
 ## Project Overview
 
 **Project Title**: Retail Sales Analysis  
-**Database**: `CovidDeaths` and '`CovidVaccinations` from Our World in Data (OWID) COVID-19 dataset
+**Database**: `CovidDeaths` and `CovidVaccinations` from Our World in Data (OWID) COVID-19 dataset
 
 This project is designed to demonstrate my SQL skills and techniques typically used by data analysts to explore, clean, and analyze real- time health data. The project involves extracting and importing database, performing exploratory data analysis (EDA), and performed critical queries necassary to understadn the data.
 
