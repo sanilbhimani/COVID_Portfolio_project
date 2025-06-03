@@ -1,4 +1,4 @@
-# COVID-19 Death and Vaccination Analysis from Jan 2020- Apr 2021
+# COVID-19 Death and Vaccination Analysis Jan 2020- Apr 2021
 
 
 ## Project Overview
